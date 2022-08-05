@@ -1,0 +1,14 @@
+@use 'index' as s;
+
+body {
+    align-items: center;
+    background-color: s.$clr-dark-blue;
+    display: flex;
+    flex-direction: column;
+    font-family: s.$ff-default;
+    font-size: s.$fs-default;
+    font-weight: s.$fw-default;
+    min-height: 100vh;
+    justify-content: center;
+    //padding: pxToRem(20) 0 pxToRem(40) 0;
+}
