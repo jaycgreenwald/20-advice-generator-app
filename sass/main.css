@@ -100,7 +100,7 @@ body {
 }
 
 .btn-round::after {
-  background: url("/images/icon-dice.svg");
+  background-image: url("/images/icon-dice.svg");
   background-repeat: no-repeat;
   background-position: center center;
   content: "";
@@ -108,11 +108,10 @@ body {
   width: 100%;
   position: absolute;
   left: 0;
-  top: 19px;
-}
+  top: 18px;
 
 .btn-round:hover {
-  box-shadow: 0 0 15px 15px hsla(150deg, 100%, 66%, 0.2);
+  
 }
-
-/*# sourceMappingURL=main.css.map */
+  filter: drop-shadow(5px 5px 5px 5px hsl(150deg, 100%, 66%));
+}/*# sourceMappingURL=main.css.map */

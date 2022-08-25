@@ -24,7 +24,7 @@
 .slip__advice-text {
     color: s.$clr-light-cyan;
     font-size: s.$fs-slip-text;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
 
 .slip__advice-text::after {
@@ -44,7 +44,6 @@
 	border: none;
 	border-radius: 9999px;
     bottom: -31px;
-	// box-shadow: 0rem 0.375rem 0.625rem -0.1875rem rgba(73, 73, 73, 0.40);
 	cursor: pointer;
 	display: block;
     padding: s.pxToRem(31);
@@ -52,15 +51,17 @@
 }
 
 .btn-round::after {
-    background-image: url("/images/icon-dice.svg");
+    background: url("/images/icon-dice.svg");
     background-repeat: no-repeat;
     background-position: center center;
     content: "";
-    //z-index: 10;
-    //padding: 12px;
     height: 24px;
     width: 100%;
     position: absolute;
     left: 0;
-    top: 18px;
+    top: 19px;
+}
+
+.btn-round:hover {
+    box-shadow: 0 0 15px 15px hsla(150, 100%, 66%, .2);
 }
