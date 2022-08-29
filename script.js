@@ -13,6 +13,7 @@ document.querySelector(".js-btn-round").addEventListener("click", start)
 
 // display the slip id and advice
 function displayAdvice(adviceSlip) {
-    document.querySelector(".js-slip-number").innerHTML = adviceSlip.id
+    // document.querySelector(".js-slip-number").innerHTML = adviceSlip.id
+    document.querySelector(".js-slip-number").innerHTML = `ADVICE #${adviceSlip.id}`
     document.querySelector(".js-slip-advice").innerHTML = adviceSlip.advice
 }

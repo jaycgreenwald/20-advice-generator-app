@@ -1,0 +1,27 @@
+@use 'index' as s;
+
+@media screen and (min-width: s.pxToRem(600)) {    
+    
+    .slip {
+        max-width: s.pxToRem(540); /* changed */
+        padding: 0 s.pxToRem(20) 0 s.pxToRem(20);
+    }
+    
+    .slip__number {
+        font-size: s.$fs-slip-number-desk;
+        letter-spacing: s.pxToRem(3.5);
+        padding: s.pxToRem(47) 0 0 0;
+    }
+
+    .slip__advice-text {
+        font-size: s.$fs-slip-text-desk;
+        line-height: 1.5;
+        padding: s.pxToRem(22) 0 s.pxToRem(38) 0; 
+    }    
+
+    .slip__divider {
+        background-image: url("/images/pattern-divider-desktop.svg");
+        padding: s.pxToRem(40) 0 s.pxToRem(47) 0;
+    }
+
+};

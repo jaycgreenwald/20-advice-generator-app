@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     max-width: s.pxToRem(344);
-    padding: s.pxToRem(40) s.pxToRem(20) s.pxToRem(36) s.pxToRem(20);
+    padding: 0 s.pxToRem(20) 0 s.pxToRem(20);
     position: relative;
     text-align: center;
 }
@@ -16,28 +16,16 @@
     color: s.$clr-neon-green;
     font-size: s.$fs-slip-number;
     letter-spacing: s.pxToRem(3);
-    margin: 0 0 s.pxToRem(22) 0;
+    padding: s.pxToRem(39) 0 0 0;
     text-transform: uppercase;
 }
-
 
 .slip__advice-text {
     color: s.$clr-light-cyan;
     font-size: s.$fs-slip-text;
-    margin-bottom: 70px;
+    padding: s.pxToRem(22) 0 s.pxToRem(24) 0; 
 }
 
-.slip__advice-text::after {
-    background-image: url("/images/pattern-divider-mobile.svg");
-    background-repeat: no-repeat;
-    background-position-x: center;
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 65px;
-    width: 100%;
-    height: 16px;
-}
 
 .btn-round {
     background-color: s.$clr-neon-green;
@@ -64,4 +52,13 @@
 
 .btn-round:hover {
     box-shadow: 0 0 15px 15px hsla(150, 100%, 66%, .2);
+}
+
+.slip__divider {
+    background-image: url("/images/pattern-divider-mobile.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 16px;
+    padding: s.pxToRem(40) 0 s.pxToRem(40) 0;
+    width: 100%;
 }
