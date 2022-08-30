@@ -88,7 +88,7 @@ body {
 }
 
 .btn-round::after {
-  background: url("/images/icon-dice.svg");
+  background: url("../images/icon-dice.svg");
   background-repeat: no-repeat;
   background-position: center center;
   content: "";
@@ -104,7 +104,7 @@ body {
 }
 
 .slip__divider {
-  background-image: url("/images/pattern-divider-mobile.svg");
+  background-image: url("../images/pattern-divider-mobile.svg");
   background-repeat: no-repeat;
   background-position-x: center;
   height: 16px;
@@ -128,7 +128,7 @@ body {
     padding: 1.38rem 0 2.38rem 0;
   }
   .slip__divider {
-    background-image: url("/images/pattern-divider-desktop.svg");
+    background-image: url("../images/pattern-divider-desktop.svg");
     padding: 2.5rem 0 2.94rem 0;
   }
 }
