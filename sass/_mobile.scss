@@ -39,7 +39,7 @@
 }
 
 .btn-round::after {
-    background: url("/images/icon-dice.svg");
+    background: url("../images/icon-dice.svg");
     background-repeat: no-repeat;
     background-position: center center;
     content: "";
@@ -55,7 +55,7 @@
 }
 
 .slip__divider {
-    background-image: url("/images/pattern-divider-mobile.svg");
+    background-image: url("../images/pattern-divider-mobile.svg");
     background-repeat: no-repeat;
     background-position-x: center;
     height: 16px;
